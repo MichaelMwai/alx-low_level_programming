@@ -1,7 +1,3 @@
-[B[A
-[A
-
-
 #include "main.h"
 
 /**
