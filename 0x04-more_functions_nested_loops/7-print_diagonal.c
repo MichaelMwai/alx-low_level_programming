@@ -30,6 +30,3 @@ void print_diagonal(int n)
 	}
 	_putchar('\n');
 }
-git add .
-git commit -m ""[D');
-}
