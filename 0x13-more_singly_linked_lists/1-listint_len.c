@@ -11,16 +11,14 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t num = 0;  // Initialize a variable to count nodes
-
-	// Iterate through the linked list while it's not NULL
+	size_t num = 0;  
 	while (h)
 	{
-		num++;      // Increment the node count
-		h = h->next; // Move to the next node in the list
+		num++;      
+		h = h->next; 
 	}
 
-	// Return the total number of nodes in the list
+	
 	return (num);
 }
 

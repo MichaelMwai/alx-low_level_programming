@@ -6,13 +6,13 @@
  */
 void free_listint(listint_t *head)
 {
-    listint_t *current; // Pointer to traverse the list
+    listint_t *current; 
 
     while (head != NULL)
     {
-        current = head;   // Save the current node
-        head = head->next; // Move to the next node
-        free(current);     // Free the current node
+        current = head;   
+        head = head->next; 
+        free(current);     
     }
 }
 
